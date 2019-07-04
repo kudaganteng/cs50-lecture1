@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  display: inline-block;
+}
+
+header {
+  margin: 0 auto;
+  background-color: aquamarine;
+  width: 100%;
+  height: 4.5em;
+}
+header h2 {
+  float: left;
+  margin-left: 0.5em;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+header a {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto 1000px auto;
+  grid-column-gap: 12em;
+}
+.grid .section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+.grid .article h2 {
+  font-style: oblique;
+}
+
+/*# sourceMappingURL=style.css.map */
